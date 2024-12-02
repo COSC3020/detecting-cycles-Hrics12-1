@@ -7,6 +7,7 @@ function hasCycle(graph) {
     }
     return false;
 }
+
 function findCycle(graph, node, visitedNodes) {
     visitedNodes.push(node);
     for (let neighbor of graph[node]) {
